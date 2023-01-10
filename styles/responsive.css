@@ -1,0 +1,27 @@
+/* small devics responsive css  */
+@media screen and (max-width : 576px) {
+    .videos-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* medium devics responsive css  */
+@media screen and (min-width : 577px) and (max-width : 768px) {
+    .videos-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* larg devics responsive css  */
+@media screen and (min-width : 769px) and (max-width : 992px) {
+    .videos-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* extra larg devics responsive css  */
+@media screen and (min-width : 993px) and (max-width : 1200px) {
+    .videos-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
